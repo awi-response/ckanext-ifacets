@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        ifacets=ckanext.ifacets.plugin:IfacetsPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    

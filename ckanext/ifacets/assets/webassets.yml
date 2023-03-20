@@ -1,0 +1,14 @@
+# ifacets-js:
+#   filter: rjsmin
+#   output: ckanext-ifacets/%(version)s-ifacets.js
+#   contents:
+#     - js/ifacets.js
+#   extra:
+#     preload:
+#       - base/main
+
+# ifacets-css:
+#   filter: cssrewrite
+#   output: ckanext-ifacets/%(version)s-ifacets.css
+#   contents:
+#     - css/ifacets.css
