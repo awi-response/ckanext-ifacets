@@ -5,18 +5,10 @@ This Plugin defines the facets of datasets, groups and organizations in the CKAN
 
 ## Requirements
 
-**TODO:** For example, you might want to mention here which versions of CKAN this
-extension works with.
-
-If your extension works across different versions you can add the following table:
-
 Compatibility with core CKAN versions: 2.9
 
-## Installation
 
-**TODO:** Add any additional install steps to the list below.
-   For example installing any non-Python dependencies or adding any required
-   config settings.
+## Installation
 
 To install ckanext-ifacets:
 
