@@ -5,7 +5,7 @@ This Plugin defines the facets of datasets, groups and organizations in the CKAN
 
 ## Requirements
 
-Compatibility with core CKAN versions: 2.9
+Compatibility with core CKAN versions: 2.9 and higher
 
 
 ## Installation
