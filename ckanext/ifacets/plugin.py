@@ -16,22 +16,6 @@ class IfacetsPlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IFacets)
 
     def dataset_facets(self, facets_dict, package_type):
-        if package_type == 'GTN-P-dataset':
-          facets_dict.clear()
-          facets_dict['country'] = plugins.toolkit._('Countries')
-          facets_dict['site'] = plugins.toolkit._('Sites')
-          facets_dict['permafrost_zone'] = plugins.toolkit._('Permafrost Zones')
-          facets_dict['vegetation_type'] = plugins.toolkit._('Vegetation Types')
-          facets_dict['measure_type'] = plugins.toolkit._('Types')
-          facets_dict['measure_variable'] = plugins.toolkit._('Variables')
-          facets_dict['tags'] = plugins.toolkit._('Keywords')
-          facets_dict['res_format'] = plugins.toolkit._('Data Formats')
-          facets_dict['author'] = plugins.toolkit._('Data Authors')
-          facets_dict['institute'] = plugins.toolkit._('Institutes')
-
-          return facets_dict
-
-        else:
           facets_dict.clear()
           facets_dict['region'] = plugins.toolkit._('Regions')
           facets_dict['product'] = plugins.toolkit._('Products')
